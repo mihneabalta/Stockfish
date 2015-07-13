@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\syzygy">
+      <UniqueIdentifier>{fb4dfb31-670b-4327-8661-958a5799db3a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="benchmark.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="bitbase.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="bitboard.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="endgame.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="evaluate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="material.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="movegen.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="movepick.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pawns.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="position.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="psqt.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="search.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="thread.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="timeman.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="tt.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="uci.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ucioption.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="syzygy\tbcore.cpp">
+      <Filter>src\syzygy</Filter>
+    </ClCompile>
+    <ClCompile Include="syzygy\tbprobe.cpp">
+      <Filter>src\syzygy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bitboard.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="bitcount.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="endgame.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="evaluate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="movegen.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="movepick.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pawns.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="position.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="search.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="thread.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="thread_win32.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="timeman.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="tt.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="uci.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="syzygy\tbcore.h">
+      <Filter>src\syzygy</Filter>
+    </ClInclude>
+    <ClInclude Include="syzygy\tbprobe.h">
+      <Filter>src\syzygy</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
